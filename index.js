@@ -19,3 +19,12 @@ function quickSort(arr) {
   }
   return quickSort(left).concat(pivot, quickSort(right));
 }
+
+/**
+ * @description: 根据id
+ * @param {*} id
+ * @return {*}
+ */
+function getElementById(id) {
+  return document.getElementById(id);
+}
